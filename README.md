@@ -1,7 +1,8 @@
 # Data-Engineering-Projects
 Data Engineering Projects
 
-<img width="498" alt="image" src="https://user-images.githubusercontent.com/69694512/211546893-d5a7cec4-242c-4b12-8def-2ca1b081220c.png">
+<img width="783" alt="image" src="https://user-images.githubusercontent.com/69694512/211547136-4672ad2e-89db-498d-a7ac-132ef8f5f0ba.png">
+
 
 
 ## Project 1: Relational Databases - Data Modeling with PostgreSQL.
