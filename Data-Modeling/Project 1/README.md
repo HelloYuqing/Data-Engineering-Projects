@@ -30,3 +30,126 @@ Sample Record:
 
 ## Project Steps
 
+### Create Tables
+1. Write CREATE statements in sql_queries.py to create each table.
+```
+# CREATE TABLES
+songplay_table_create = ("""CREATE TABLE IF NOT EXISTS songplays(
+ songplay_id SERIAL CONSTRAINT songplay_pk PRIMARY KEY,
+ start_time TIMESTAMP REFERENCES time (start_time),
+ user_id INT REFERENCES users (user_id),
+ level VARCHAR NOT NULL,
+ song_id VARCHAR REFERENCES songs (song_id),
+ artist_id VARCHAR REFERENCES artists (artist_id),
+ session_id INT NOT NULL, 
+ location VARCHAR,
+ user_agent TEXT
+)""")
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
