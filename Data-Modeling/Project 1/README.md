@@ -47,8 +47,37 @@ songplay_table_create = ("""CREATE TABLE IF NOT EXISTS songplays(
 )""")
 
 ```
+```
+user_table_create = ("""CREATE TABLE IF NOT EXISTS  users(
+ user_id  INT CONSTRAINT users_pk PRIMARY KEY,
+ first_name  VARCHAR,
+ last_name  VARCHAR,
+ gender  CHAR(1),
+ level VARCHAR NOT NULL
+)""")
+```
+```
+artist_table_create = ("""CREATE TABLE  IF NOT EXISTS artists(
+ artist_id VARCHAR CONSTRAINT artist_pk PRIMARY KEY,
+ name VARCHAR,
+ location VARCHAR,
+ latitude DECIMAL(9,6),
+ longitude DECIMAL(9,6)
+)""")
 
+```
+```
+time_table_create = ("""CREATE TABLE IF NOT EXISTS  time(
+ start_time  TIMESTAMP CONSTRAINT time_pk PRIMARY KEY,
+ hour INT NOT NULL CHECK (hour >= 0),
+ day INT NOT NULL CHECK (day >= 0),
+ week INT NOT NULL CHECK (week >= 0),
+ month INT NOT NULL CHECK (month >= 0),
+ year INT NOT NULL CHECK (year >= 0),
+ weekday VARCHAR NOT NULL
+)""")
 
+```
 
 
 
