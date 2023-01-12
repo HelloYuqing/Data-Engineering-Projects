@@ -263,4 +263,3 @@ song_data = [song_id, title, artist_id, year, duration]
 
 7. We load our data as a dataframe same way as with songs data.
 
-
