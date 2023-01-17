@@ -1,4 +1,4 @@
-# Project 4: Create a Data Lake with Spark
+# Project : Create a Data Lake with Spark
 
 ## Summary
 * [Introduction](#Introduction)
