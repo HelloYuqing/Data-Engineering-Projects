@@ -16,7 +16,7 @@ Developed a relational database using PostgreSQL to model user activity data for
 Proficiencies include: **Python, PostgreSql, Star Schema, ETL pipelines, Normalization**
 
 ## Project 2: Data Lake - Spark
-Scaled up the current ETL pipeline by moving the data warehouse to a data lake. Skills include:
+Scaled up the current ETL pipeline by moving the data warehouse to a data lake. 
 
 * Create an EMR Hadoop Cluster
 * Further develop the ETL Pipeline copying datasets from S3 buckets, data processing using Spark and writing to S3 buckets using efficient partitioning and parquet formatting.
